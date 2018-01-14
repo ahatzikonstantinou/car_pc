@@ -1,0 +1,31 @@
+#!/bin/bash
+echo "Tablet talk 5.0 patcher by freshollie (adapted by ahat for linux)"
+
+apkfile="$1"
+
+echo "apkfile: $apkfile.apk"
+
+java -jar -Duser.language=en apktool.jar -f d "$apkfile.apk"
+
+#test -d "$apkfile" || mkdir -p "$apkfile/smali/com/apdroid/tabtalk" &&
+cp ./assets/AcceptCallActivity\$CallStateReceiver.smali "$apkfile/smali/com/apdroid/tabtalk/AcceptCallActivity\$CallStateReceiver.smali"
+#test -d "$apkfile" || mkdir -p "$apkfile/smali/com/apdroid/tabtalk" &&
+cp ./assets/AcceptCallActivity.smali "$apkfile/smali/com/apdroid/tabtalk"
+#test -d "$apkfile" || mkdir -p "$apkfile/smali/com/apdroid/tabtalk" &&
+cp ./assets/ServicePhone.smali "$apkfile/smali/com/apdroid/tabtalk"
+
+mv "$apkfile/AndroidManifest.xml" "$apkfile/AndroidManifest.original.xml"
+head -n -2 "$apkfile/AndroidManifest.original.xml" > "$apkfile/AndroidManifest.xml"
+cat ./assets/AndroidManifest.activities.xml >> "$apkfile/AndroidManifest.xml"
+echo "    </application>" >> "$apkfile/AndroidManifest.xml"
+cat ./assets/AndroidManifest.permissions.xml >> "$apkfile/AndroidManifest.xml"
+echo "</manifest>" >> "$apkfile/AndroidManifest.xml"
+
+#for debugging
+#cp "$apkfile/AndroidManifest.xml" ./AndroidManifest.xml
+
+java -jar -Duser.language=en apktool.jar b "$apkfile"
+
+./buildapk "$apkfile"
+
+echo "Patched Succesfully"
