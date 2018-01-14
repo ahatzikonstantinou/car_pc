@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1,Introduction
+http://flaix.ondemand.flumotion.com/flaix/ondemand/publi/promoflaixbac128.mp3
+#EXTINF:-1,FLAIX bac
+http://195.10.10.227:80/flaix/flaixbac.mp3?GKID=fda3bcf403a811e1a45e00163e914f68

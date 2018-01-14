@@ -1,0 +1,38 @@
+In order to run several of the required scripts a sudo account must be used.
+The car_pc should be setup with autologin at boot.
+The user of the autologin should be a sudo user (this is done automatically when setting up
+the account at the ubuntu 12.04 installation).
+In order to avoid having to supply the sudo password every time a sudo command is executed
+add a file in /etc/sudoers.d 
+The name of the file may be anything you want. If the autologin user is antonis add the following
+line to the file:
+antonis ALL=(ALL) NOPASSWD:ALL
+
+No need to restart any service or do any reboot. It will be immediately taken into account
+the next time a sudo command is issued.
+Now user antonis will not be prompted for a password any more at any other sudo command
+
+
+To add a new phone do
+hcitool scan
+This will return the discovered devices and theuir addresses. 
+For example, device phone1 with address xx:xx:xx:xx:xx:xx was discovered.
+
+To pair it do:
+./add_pair-bluetooth-device xx:xx:xx:xx:xx:xx
+
+In order to retrieve its phonebook do (if rfcomm0 already exists use rfcomm1 etc):
+sudo rfcomm bind /dev/rfcomm0 xx:xx:xx:xx:xx:xx 1
+sudo ./phonebook /dev/rfcomm0
+If you get an error, try "sudo ./phonebook /dev/rfcomm0" again, it usually fails the 
+first time but succeeds the second one. Remember to set on the phone "Allow access: always"
+when the phone prompts that the car_pc tries to access it.
+
+When done, in order to release the rfcomm0 port do
+sudo rfcomm release /dev/rfcomm0
+
+In order to remove a paired phone do:
+sudo bluez-test-device list
+This will return all paired devices.Choose the address of the one to be removed e.g. xx:xx:xx:xx:xx:xx
+Then do:
+./remove-bluetooth-device xx:xx:xx:xx:xx:xx

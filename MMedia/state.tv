@@ -1,0 +1,18 @@
+{
+  "hue": 0, 
+  "saturation": 1.0, 
+  "repeat": false, 
+  "shuffle": false, 
+  "speed_dials": {
+    "5": "682000000_600"
+  }, 
+  "brightness": 1.02, 
+  "preamp": 50, 
+  "channelHash": "674000000_100", 
+  "frequency": "674000000", 
+  "gamma": 1.0, 
+  "active_list_id": 1, 
+  "device": "dvb-t:// :frequency={0} :adapter=0 :bandwidth=8", 
+  "service_id": "100\n", 
+  "contrast": 50
+}

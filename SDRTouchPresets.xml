@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdr_presets version="1">
+  <category id="-1">
+		<preset id="60" name="Action FM " freq="104600000" centfreq="104600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="2" name="Alpha 98.9 " freq="98900000" centfreq="98900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="3" name="Athens Radio DeeJay " freq="95200000" centfreq="95200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="4" name="Athens Rock FM " freq="96900000" centfreq="96900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="5" name="Atlantis FM " freq="105200000" centfreq="105200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="6" name="Best 92.6 " freq="92600000" centfreq="92600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="7" name="Blue Space " freq="107200000" centfreq="107200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="8" name="Derti 98,6 " freq="98600000" centfreq="98600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="9" name="Dream FM " freq="94300000" centfreq="94300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="10" name="Easy 97,2 " freq="97200000" centfreq="97200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="11" name="En Lefko " freq="87700000" centfreq="87700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="12" name="Flash 96 " freq="96000000" centfreq="96000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="13" name="Fresh Radio " freq="108000000" centfreq="108000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="14" name="Galaxy 92 " freq="92000000" centfreq="92000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="15" name="Hit 88.9 " freq="88900000" centfreq="88900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="16" name="Kiss FM " freq="92900000" centfreq="92900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="17" name="Love Radio " freq="97500000" centfreq="97500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="18" name="MAD Radio " freq="106200000" centfreq="106200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="19" name="Music 89.2 " freq="89200000" centfreq="89200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="20" name="Nitro Radio " freq="102500000" centfreq="102500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="21" name="Orange" freq="93200000" centfreq="93200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="22" name="Panda 886 " freq="88600000" centfreq="88600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="23" name="Paradise Radio " freq="101600000" centfreq="101600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="24" name="Party FM " freq="104000000" centfreq="104000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="25" name="Pepper 96.6 " freq="96600000" centfreq="96600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="26" name="Radio Blackman " freq="103100000" centfreq="103100000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="27" name="Real FM " freq="97800000" centfreq="97800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="28" name="Red 96.3 " freq="96300000" centfreq="96300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="29" name="Sfera 102,2 " freq="102200000" centfreq="102200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="30" name="Sport 24 Radio " freq="103300000" centfreq="103300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="31" name="Star Athens " freq="107700000" centfreq="107700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="32" name="Αθήνα 9.84 " freq="98300000" centfreq="98300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="33" name="ΑΡΤ fm " freq="90600000" centfreq="90600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="34" name="Βήμα FM " freq="99500000" centfreq="99500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="35" name="Δίεση 101,3 " freq="101300000" centfreq="101300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="36" name="Δρόμος 89.8 " freq="89800000" centfreq="89800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="37" name="Επικοινωνία 94 FM " freq="94000000" centfreq="94000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="38" name="ΕΡΑ Δεύτερο πρόγραμμα " freq="99900000" centfreq="99900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="39" name="ΕΡΑ Δεύτερο πρόγραμμα " freq="102900000" centfreq="102900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="40" name="ΕΡΑ Δεύτερο πρόγραμμα " freq="103700000" centfreq="103700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="41" name="ΕΡΑ Η Φωνή της Ελλάδας " freq="9420000000" centfreq="9420000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="42" name="ΕΡΑ Η Φωνή της Ελλάδας " freq="9935000000" centfreq="9935000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="43" name="ΕΡΑ Η Φωνή της Ελλάδας " freq="11645000000" centfreq="11645000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="44" name="ΕΡΑ Κόσμος " freq="93600000" centfreq="93600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="45" name="ΕΡΑ Κόσμος " freq="107000000" centfreq="107000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="46" name="ΕΡΑ Πρώτο πρόγραμμα " freq="91600000" centfreq="91600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="47" name="ΕΡΑ Πρώτο πρόγραμμα " freq="97900000" centfreq="97900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="48" name="ΕΡΑ Πρώτο πρόγραμμα " freq="105800000" centfreq="105800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="49" name="ΕΡΑ Πρώτο πρόγραμμα " freq="729000000" centfreq="729000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="50" name="ΕΡΑ Σπορ " freq="105000000" centfreq="105000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="51" name="ΕΡΑ Σπορ " freq="100900000" centfreq="100900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="52" name="ΕΡΑ Σπορ " freq="101800000" centfreq="101800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="53" name="ΕΡΑ Τρίτο πρόγραμμα " freq="90900000" centfreq="90900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="54" name="ΕΡΑ Τρίτο πρόγραμμα " freq="95600000" centfreq="95600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="55" name="ΕΡΤ Open " freq="106700000" centfreq="106700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="56" name="Κανάλι 1 " freq="90400000" centfreq="90400000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="57" name="Κρήτη FM " freq="87500000" centfreq="87500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="58" name="Κρητικό Ραδιόφωνο " freq="91400000" centfreq="91400000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="59" name="Λάμψη 92,3 " freq="92300000" centfreq="92300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="60" name="Μελωδία FM " freq="99200000" centfreq="99200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="61" name="Μέντα 88 " freq="88000000" centfreq="88000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="62" name="Μινόρε FM " freq="104300000" centfreq="104300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="63" name="Νόστος 100.6 " freq="100600000" centfreq="100600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="64" name="Ντίρλα FM " freq="95800000" centfreq="95800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="65" name="Παλμός Ράδιο " freq="102700000" centfreq="102700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="66" name="Παραπολιτικά 90.1 " freq="90100000" centfreq="90100000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="67" name="Πειραϊκή Εκκλησία " freq="91200000" centfreq="91200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="68" name="Ράδιο Αργοσαρωνικός " freq="106400000" centfreq="106400000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="69" name="Ράδιο Έκφραση " freq="93400000" centfreq="93400000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="70" name="Ράδιο Μύθος " freq="107400000" centfreq="107400000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="71" name="Ραδιοζώνες Ανατρεπτικής Έκφρασης" freq="93800000" centfreq="93800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="72" name="ΡΣ Εκκλησίας της Ελλάδος " freq="89500000" centfreq="89500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="73" name="Ρυθμός FM " freq="94900000" centfreq="94900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="74" name="Σκάϊ 100,3 " freq="100300000" centfreq="100300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="75" name="ΣΠΟΡ FM " freq="94600000" centfreq="94600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="76" name="Στο Κόκκινο" freq="105500000" centfreq="105500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="77" name="Στυλ FM " freq="104900000" centfreq="104900000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="2" name="Dance - Hits">
+		<preset id="78" name="Athens Radio DeeJay " freq="95200000" centfreq="95200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="79" name="Best 92.6 " freq="92600000" centfreq="92600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="80" name="En Lefko " freq="87700000" centfreq="87700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="81" name="Galaxy 92 " freq="92000000" centfreq="92000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="82" name="Hit 88.9 " freq="88900000" centfreq="88900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="83" name="Kiss FM " freq="92900000" centfreq="92900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="84" name="MAD Radio " freq="106200000" centfreq="106200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="85" name="Music 89.2 " freq="89200000" centfreq="89200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="86" name="Nitro Radio " freq="102500000" centfreq="102500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="87" name="Panda 886 " freq="88600000" centfreq="88600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="88" name="Paradise Radio " freq="101600000" centfreq="101600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="89" name="Radio Blackman " freq="103100000" centfreq="103100000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="90" name="Μινόρε FM " freq="104300000" centfreq="104300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="91" name="Στο Κόκκινο" freq="105500000" centfreq="105500000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="3" name="Greek Pop">
+		<preset id="92" name="Sfera 102,2 " freq="102200000" centfreq="102200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="93" name="Δρόμος 89.8 " freq="89800000" centfreq="89800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="94" name="ΕΡΑ Σπορ " freq="105000000" centfreq="105000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="95" name="Λάμψη 92,3 " freq="92300000" centfreq="92300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="96" name="Ρυθμός FM " freq="94900000" centfreq="94900000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="4" name="Rock">
+	<preset id="97" name="Athens Rock FM " freq="96900000" centfreq="96900000" offset="0" order="1" filter="70000" dem="0"/>
+	<preset id="98" name="Red 96.3 " freq="96300000" centfreq="96300000" offset="0" order="1" filter="70000" dem="0"/>
+	<preset id="99" name="Ραδιοζώνες Ανατρεπτικής Έκφρασης" freq="93800000" centfreq="93800000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="5" name="Αθλητικά">
+		<preset id="100" name="Sport 24 Radio " freq="103300000" centfreq="103300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="101" name="ΕΡΑ Σπορ " freq="100900000" centfreq="100900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="102" name="ΕΡΑ Σπορ " freq="101800000" centfreq="101800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="103" name="ΣΠΟΡ FM " freq="94600000" centfreq="94600000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="6" name="Διάφορα">
+		<preset id="104" name="Blue Space " freq="107200000" centfreq="107200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="105" name="Dream FM " freq="94300000" centfreq="94300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="106" name="Fresh Radio " freq="108000000" centfreq="108000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="107" name="Party FM " freq="104000000" centfreq="104000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="108" name="Pepper 96.6 " freq="96600000" centfreq="96600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="109" name="Star Athens " freq="107700000" centfreq="107700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="110" name="ΑΡΤ fm " freq="90600000" centfreq="90600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="111" name="Επικοινωνία 94 FM " freq="94000000" centfreq="94000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="112" name="ΕΡΑ Δεύτερο πρόγραμμα " freq="99900000" centfreq="99900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="113" name="ΕΡΑ Δεύτερο πρόγραμμα " freq="102900000" centfreq="102900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="114" name="ΕΡΑ Δεύτερο πρόγραμμα " freq="103700000" centfreq="103700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="115" name="ΕΡΑ Η Φωνή της Ελλάδας " freq="9420000000" centfreq="9420000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="116" name="ΕΡΑ Η Φωνή της Ελλάδας " freq="9935000000" centfreq="9935000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="117" name="ΕΡΑ Η Φωνή της Ελλάδας " freq="11645000000" centfreq="11645000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="118" name="ΕΡΑ Κόσμος " freq="93600000" centfreq="93600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="119" name="ΕΡΑ Κόσμος " freq="107000000" centfreq="107000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="120" name="ΕΡΑ Πρώτο πρόγραμμα " freq="91600000" centfreq="91600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="121" name="ΕΡΑ Πρώτο πρόγραμμα " freq="97900000" centfreq="97900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="122" name="ΕΡΑ Πρώτο πρόγραμμα " freq="105800000" centfreq="105800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="123" name="ΕΡΑ Πρώτο πρόγραμμα " freq="729000000" centfreq="729000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="124" name="ΕΡΑ Τρίτο πρόγραμμα " freq="90900000" centfreq="90900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="125" name="ΕΡΑ Τρίτο πρόγραμμα " freq="95600000" centfreq="95600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="126" name="ΕΡΤ Open " freq="106700000" centfreq="106700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="127" name="Ράδιο Έκφραση " freq="93400000" centfreq="93400000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="128" name="Στυλ FM " freq="104900000" centfreq="104900000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="7" name="Ειδήσεις">
+		<preset id="129" name="Alpha 98.9 " freq="98900000" centfreq="98900000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="130" name="Atlantis FM " freq="105200000" centfreq="105200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="131" name="Flash 96 " freq="96000000" centfreq="96000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="132" name="Real FM " freq="97800000" centfreq="97800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="133" name="Αθήνα 9.84 " freq="98300000" centfreq="98300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="134" name="Βήμα FM " freq="99500000" centfreq="99500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="135" name="Κανάλι 1 " freq="90400000" centfreq="90400000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="136" name="Παραπολιτικά 90.1 " freq="90100000" centfreq="90100000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="137" name="Σκάϊ 100,3 " freq="100300000" centfreq="100300000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="8" name="Έντεχνο - Μπαλάντες">
+		<preset id="138" name="Easy 97,2 " freq="97200000" centfreq="97200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="139" name="Love Radio " freq="97500000" centfreq="97500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="140" name="Orange" freq="93200000" centfreq="93200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="141" name="Δίεση 101,3 " freq="101300000" centfreq="101300000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="142" name="Μελωδία FM " freq="99200000" centfreq="99200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="143" name="Μέντα 88 " freq="88000000" centfreq="88000000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="144" name="Νόστος 100.6 " freq="100600000" centfreq="100600000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="9" name="Θρησκευτικά">
+		<preset id="145" name="Πειραϊκή Εκκλησία " freq="91200000" centfreq="91200000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="146" name="ΡΣ Εκκλησίας της Ελλάδος " freq="89500000" centfreq="89500000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="10" name="Κρητικά">
+		<preset id="147" name="Κρήτη FM " freq="87500000" centfreq="87500000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="148" name="Κρητικό Ραδιόφωνο " freq="91400000" centfreq="91400000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+  <category id="11" name="Λαϊκά">
+		<preset id="149" name="Action FM " freq="104600000" centfreq="104600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="150" name="Derti 98,6 " freq="98600000" centfreq="98600000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="151" name="Ντίρλα FM " freq="95800000" centfreq="95800000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="152" name="Παλμός Ράδιο " freq="102700000" centfreq="102700000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="153" name="Ράδιο Αργοσαρωνικός " freq="106400000" centfreq="106400000" offset="0" order="1" filter="70000" dem="0"/>
+		<preset id="154" name="Ράδιο Μύθος " freq="107400000" centfreq="107400000" offset="0" order="1" filter="70000" dem="0"/>
+  </category>
+</sdr_presets>

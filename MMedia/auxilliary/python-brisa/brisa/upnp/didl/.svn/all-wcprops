@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/didl
+END
+didl_lite.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/didl/didl_lite.py
+END
+dlna.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/didl/dlna.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/didl/__init__.py
+END

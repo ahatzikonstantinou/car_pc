@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/services/gst_renderer
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/services/gst_renderer/__init__.py
+END
+gst_renderer.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/services/gst_renderer/gst_renderer.py
+END

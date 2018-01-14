@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/reactors
+END
+_ecore.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/reactors/_ecore.py
+END
+_select.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/reactors/_select.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/brisa/!svn/ver/1822/python/trunk/python-brisa/brisa/core/reactors/__init__.py
+END
+glib2.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/reactors/glib2.py
+END
+gtk2.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/reactors/gtk2.py
+END

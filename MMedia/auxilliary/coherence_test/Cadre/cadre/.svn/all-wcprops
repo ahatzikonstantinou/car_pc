@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1476/trunk/Cadre/cadre
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1476/trunk/Cadre/cadre/base.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1467/trunk/Cadre/cadre/__init__.py
+END
+renderer.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1468/trunk/Cadre/cadre/renderer.py
+END

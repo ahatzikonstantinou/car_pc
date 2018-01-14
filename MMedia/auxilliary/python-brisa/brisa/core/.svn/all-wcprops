@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core
+END
+ireactor.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/ireactor.py
+END
+plugin_manager.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/plugin_manager.py
+END
+network.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/network.py
+END
+threaded_call.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/threaded_call.py
+END
+network_senders.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/network_senders.py
+END
+plugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/plugin.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/__init__.py
+END
+log.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/log.py
+END
+network_listeners.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/network_listeners.py
+END
+singleton.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/singleton.py
+END
+system.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/system.py
+END
+webserver.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/webserver.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/config.py
+END
+failure.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/core/failure.py
+END

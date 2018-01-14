@@ -1,0 +1,23 @@
+Subtitles:
+	v	Subtitles are always unavailable while player is stopped. Becomes available only when player is playing (on state changed to playing) and only if the track is a video
+	Do DVD subtitles
+	Do UPnP subtitles
+
+Deactivate/Reactivate:
+	Resume from system pause/mute
+	
+Refactoring:
+	Separate gui and engine
+	Engine goes in a separate thread to stop crashing fof wx
+	Gui and engine communicate via wx.Post
+
+UPnP:
+	Create an actual connection to the media servers or find some other way to avoid random disconnections
+
+Fullscreen mode:
+	Fix fullscreen toggle
+	
+Tablet interface:
+	Stream desktop with vlc
+	Develop mouse-events-server to receive mouse clicks on car-pc
+	Develop application to receive stream in tablet and send mouse events to car-pc mouse-events-server

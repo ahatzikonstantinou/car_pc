@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/debian/control
+END
+control-python-2.6
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/debian/control-python-2.6
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/debian/compat
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/debian/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/debian/copyright
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/debian/rules
+END
+rules-python-2.6
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/debian/rules-python-2.6
+END

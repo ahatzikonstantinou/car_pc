@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#This command will remove a paired bluetooth device from the saved list of
+#paired devices
+#Arg $1 is the device's bd adress e.g. 00:23:D6:32:2F:0E and can be retrieved with 
+#bluez-test-device list
+
+bluez-test-device remove $1

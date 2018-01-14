@@ -1,0 +1,12 @@
+setup.py
+bin/brisa-media-renderer
+src/__init__.py
+src/_basic_config.py
+src/media_renderer_impl.py
+src/services/__init__.py
+src/services/avtransport/__init__.py
+src/services/avtransport/av_transport.py
+src/services/gst_renderer/__init__.py
+src/services/gst_renderer/gst_renderer.py
+src/services/render_control/__init__.py
+src/services/render_control/render_ctl.py

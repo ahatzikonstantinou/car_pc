@@ -1,0 +1,2 @@
+#! /bin/bash
+pactl set-source-volume "$1" "$2"

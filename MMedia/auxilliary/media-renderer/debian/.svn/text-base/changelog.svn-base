@@ -1,0 +1,36 @@
+brisa-media-renderer (0.1.2maemo0) unstable; urgency=low
+
+  * New release
+
+ -- André Dieb Martins <andre.dieb@gmail.com>  Wed, 21 Oct 2009 15:38:55 -0300
+
+brisa-media-renderer (0.1.1maemo3) unstable; urgency=low
+
+  * Fix gstreamer dependency name
+
+ -- André Dieb Martins <andre.dieb@gmail.com>  Fri, 5 May 2009 23:10:00 -0300
+
+brisa-media-renderer (0.1.1maemo2) unstable; urgency=low
+
+  * Fixes problem on using env python and getting wrong python version
+  * Package is now signed
+
+ -- André Dieb Martins <andre.dieb@gmail.com>  Fri, 05 May 2009 19:18:00 -0300
+
+brisa-media-renderer (0.1.1maemo1) unstable; urgency=low
+
+  * New release
+
+ -- Leandro Melo de Sales <leandroal@gmail.com>  Fri, 05 Jun 2009 00:44:00 -0300
+
+brisa-media-renderer (0.1.1) unstable; urgency=low
+
+  * New release
+
+ -- Andre Dieb Martins <dieb@embedded.ufcg.edu.br>  Mon, 16 Mar 2009 03:58:00 -0300
+
+brisa-media-renderer (0.1.0) unstable; urgency=low
+
+  * Added debian packaging
+
+ -- Andre Dieb Martins <dieb@embedded.ufcg.edu.br>  Wed, 19 Nov 2008 04:23:15 -0300

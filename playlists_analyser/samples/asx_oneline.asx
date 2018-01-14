@@ -1,0 +1,20 @@
+<asx version="3.0" bannerbar="auto">
+    <param name="encoding" value="utf-8"/>
+    <title>
+        SWR2
+    </title>
+    <banner href="http://www.swr.de/static/jwplayer/img/480x200_webradio.jpg">
+        <moreinfo href="http://www.swr2.de"></moreinfo>
+    </banner>
+    <param name="HTMLView" value="http://www.swr.de/radio"/>
+    <entry>
+        <title>SWR2</title>
+        <author>
+            SWR2.de (http://www.swr2.de)
+        </author>
+        <param name="type" value="wma"/>
+        <copyright>(c) 2010 SWR2.de</copyright>
+        <ref href="mms://swr-wma-m-swr2a.wm.llnwd.net/swr_wma_m_swr2a"></ref><ref href="mms://swr-wma-m-swr2b.wm.llnwd.net/swr_wma_m_swr2b"></ref>
+    </entry>
+</asx>
+

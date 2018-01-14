@@ -1,0 +1,65 @@
+index: 5
+	name: <alsa_input.usb-SILICON_LABORATORIES_INC._FM_Radio-00-Radio.analog-stereo>
+	driver: <module-alsa-card.c>
+	flags: HARDWARE DECIBEL_VOLUME LATENCY DYNAMIC_LATENCY
+	state: RUNNING
+	suspend cause: 
+	priority: 9049
+	volume: 0: 100% 1: 100%
+	        0: 0.00 dB 1: 0.00 dB
+	        balance 0.00
+	base volume: 100%
+	             0.00 dB
+	volume steps: 65537
+	muted: no
+	current latency: 0.66 ms
+	max rewind: 0 KiB
+	sample spec: s16le 2ch 96000Hz
+	channel map: front-left,front-right
+	             Stereo
+	used by: 1
+	linked by: 1
+	configured latency: 20.00 ms; range is 2.00 .. 2000.00 ms
+	card: 2 <alsa_card.usb-SILICON_LABORATORIES_INC._FM_Radio-00-Radio>
+	module: 6
+	properties:
+		alsa.resolution_bits = "16"
+		device.api = "alsa"
+		device.class = "sound"
+		alsa.class = "generic"
+		alsa.subclass = "generic-mix"
+		alsa.name = "USB Audio"
+		alsa.id = "USB Audio"
+		alsa.subdevice = "0"
+		alsa.subdevice_name = "subdevice #0"
+		alsa.device = "0"
+		alsa.card = "2"
+		alsa.card_name = "FM Radio"
+		alsa.long_card_name = "SILICON LABORATORIES INC. FM Radio at usb-0000:00:1d.0-1.2, full speed"
+		alsa.driver_name = "snd_usb_audio"
+		device.bus_path = "pci-0000:00:1d.0-usb-0:1.2:1.0"
+		sysfs.path = "/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/sound/card2"
+		udev.id = "usb-SILICON_LABORATORIES_INC._FM_Radio-00-Radio"
+		device.bus = "usb"
+		device.vendor.id = "10c4"
+		device.vendor.name = "Cygnal Integrated Products, Inc."
+		device.product.id = "818a"
+		device.product.name = "Silicon Labs FM Radio Reference Design"
+		device.serial = "SILICON_LABORATORIES_INC._FM_Radio"
+		device.string = "front:2"
+		device.buffering.buffer_size = "768000"
+		device.buffering.fragment_size = "384000"
+		device.access_mode = "mmap+timer"
+		device.profile.name = "analog-stereo"
+		device.profile.description = "Analog Stereo"
+		device.description = "Silicon Labs FM Radio Reference Design Analog Stereo"
+		alsa.mixer_name = "USB Mixer"
+		alsa.components = "USB10c4:818a"
+		module-udev-detect.discovered = "1"
+		device.icon_name = "audio-card-usb"
+	ports:
+		analog-input: Analog Input (priority 10000, available: unknown)
+			properties:
+				
+	active port: <analog-input>
+

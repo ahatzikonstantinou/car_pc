@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:-1
+#EXTINF:-1,avtoradio
+http://195.82.12.66:88/broadwave.mp3?src=1&rate=1&ref=
+#EXT-X-ENDLIST

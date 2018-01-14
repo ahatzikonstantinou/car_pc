@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#The following commands connects and pairs a mobile device given in arg $1 its bdaddress e.g. 00:23:D6:32:2F:0E
+#A dialog will pop up on the pc to enter a pin number and the mobile device will popup
+#a dialog requesting that the user enters the same pin to complete the pairing
+#The commands must be issued inn one line, with no inbetween delay, or else the bluetooth connection is 
+#immediately released after the first command
+#hcitool cc connects
+#hcitool sr reverser roles master/slave between pc and mobile device in order to make the pc master
+#hcitool auth authenticates
+a="sudo hcitool cc $1 ; "
+b="sudo hcitool sr $1 slave ; "
+c="sudo hcitool auth $1 ; "
+cmd=$a$b$c
+#eval "sudo hcitool cc $1 ; sudo hcitool sr $1 ; sudo hcitool auth $1"
+#echo $a$b$c
+#echo $cmd
+eval $cmd
+

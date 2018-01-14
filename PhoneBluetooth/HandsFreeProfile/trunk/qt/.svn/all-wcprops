@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/nohands/!svn/ver/86/trunk/qt
+END
+scandialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/nohands/!svn/ver/1/trunk/qt/scandialog.ui
+END
+prefs.ui.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/nohands/!svn/ver/34/trunk/qt/prefs.ui.h
+END
+nohands.ui
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/nohands/!svn/ver/37/trunk/qt/nohands.ui
+END
+scandialog.ui.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/nohands/!svn/ver/34/trunk/qt/scandialog.ui.h
+END
+hfstandalone.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/nohands/!svn/ver/86/trunk/qt/hfstandalone.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/nohands/!svn/ver/34/trunk/qt/Makefile.am
+END
+dialpad.ui
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/nohands/!svn/ver/1/trunk/qt/dialpad.ui
+END
+prefs.ui
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/nohands/!svn/ver/1/trunk/qt/prefs.ui
+END
+events-qt.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/nohands/!svn/ver/37/trunk/qt/events-qt.h
+END
+nohands.ui.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/nohands/!svn/ver/34/trunk/qt/nohands.ui.h
+END

@@ -1,0 +1,4 @@
+Changed default reactor to GLib2
+--Esta linha, e as abaixo, serão ignoradas--
+
+M    __init__.py

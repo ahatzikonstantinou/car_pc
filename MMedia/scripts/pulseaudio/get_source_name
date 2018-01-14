@@ -1,0 +1,2 @@
+#! /bin/bash
+pactl list sources | grep "Name:.*FM_Radio" | cut -d " " -f2

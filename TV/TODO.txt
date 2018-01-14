@@ -1,0 +1,23 @@
+Complete WScanner.__MergeChannelFiles:
+    Channels should be stored in a dictionary with channel number as key and the rest of the object as value
+    
+Complete state.py
+    It only includes SpeedDial functions, and a ChannelIs function.
+    
+Complete stationList.py
+    Rename to channelList.py
+    Channels should be stored in so that the user specified order is also saved.
+    
+Complete settings.py
+    It should only include SpeedDial font settings, channelList font settings, speed dial row and press time settings, pulseaudio tv sourcename, tv device ?, zappTimerMSecs
+    
+Complete tv_gui.py
+    Start with fmradio_gui.py. 
+    Get rid of frequency panel, and numeric selector panel. 
+    Use vlc display code from rear_camera.py. 
+    Copy video settings panel code from rear_camer.py. 
+    Modify fmradio_gui speed dial code for channels.
+    Put speed dial buttons in the first tab a two tab control.
+    Put video settings controls in the second tab of the tab control.
+    
+Enjoy

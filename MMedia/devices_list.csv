@@ -1,0 +1,5 @@
+#do NOT include usb removable external hard disks or usb sticks here. They are auto discovered and if added here they will cause an exception
+'FM', '/dev/radio0', '1'
+'TV', '/dev/dvb/adapter0', '0'
+'HDD', '/', '3'
+'DMR', '_', '8'

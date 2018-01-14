@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/control
+END
+control-python-2.6
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/control-python-2.6
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/compat
+END
+postinst
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/postinst
+END
+postinst-python-2.6
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/postinst-python-2.6
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/copyright
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/rules
+END
+rules-python-2.6
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/debian/rules-python-2.6
+END

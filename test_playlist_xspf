@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///media/Elements/music/Paco%20De%20Luc%C3%ADa/Cositas%20Buenas/06%20El%20Tesorillo%20%28Tientos%29.wma</location>
+			<title>El Tesorillo (Tientos)</title>
+			<creator>Paco De Lucía</creator>
+			<album>Cositas Buenas</album>
+			<trackNum>6</trackNum>
+			<duration>281266</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/Elements/music/Paco%20De%20Luc%C3%ADa/Cositas%20Buenas/07%20Que%20Venga%20el%20Alba%20%28Buler%C3%ADa%29.wma</location>
+			<title>Que Venga El Alba (Buleria)</title>
+			<creator>Paco de Lucía</creator>
+			<album>Cositas Buenas</album>
+			<trackNum>7</trackNum>
+			<duration>253813</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///media/Elements/music/Paco%20De%20Luc%C3%ADa/Cositas%20Buenas/08%20Casa%20Bernardo%20%28Rumba%29.wma</location>
+			<title>Casa Bernardo (Rumba)</title>
+			<creator>Paco De Lucía</creator>
+			<album>Cositas Buenas</album>
+			<trackNum>8</trackNum>
+			<duration>254040</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+	</extension>
+</playlist>

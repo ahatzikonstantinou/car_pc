@@ -1,0 +1,12 @@
+{
+  "channelHash": "674000000_100", 
+  "speed_dials": {}, 
+  "brightness": 50, 
+  "mute": false, 
+  "volume": 0, 
+  "speedDials": {}, 
+  "frequency": "674000000", 
+  "device": "dvb-t:// :frequency={0} :adapter=0 :bandwidth=8", 
+  "service_id": "100\n", 
+  "contrast": 50
+}

@@ -1,0 +1,15 @@
+{
+  "channelHash": "682000000_500", 
+  "brightness": 75, 
+  "mute": false, 
+  "volume": 60, 
+  "speedDials": {
+    "8": "682000000_600", 
+    "4": "682000000_500", 
+    "7": "682000000_700"
+  }, 
+  "frequency": "682000000", 
+  "device": "", 
+  "service_id": "500\n", 
+  "contrast": 50
+}

@@ -1,0 +1,14 @@
+{
+  "hue": 0, 
+  "saturation": 1.0, 
+  "repeat": false, 
+  "shuffle": false, 
+  "speed_dials": {}, 
+  "brightness": 1.0, 
+  "preamp": 0, 
+  "filename": "state.movies on homepc.filesystem", 
+  "gamma": 1.0, 
+  "active_list_id": 0, 
+  "current_dir": "/home/antonis/.gvfs/movies on homepc", 
+  "contrast": 1.0
+}

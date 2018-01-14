@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/services/render_control
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/services/render_control/__init__.py
+END
+render_ctl.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/services/render_control/render_ctl.py
+END

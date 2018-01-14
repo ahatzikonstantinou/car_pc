@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/utils
+END
+options.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/utils/options.py
+END
+properties.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/utils/properties.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/utils/__init__.py
+END
+looping_call.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/utils/looping_call.py
+END
+safe_sleep.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/utils/safe_sleep.py
+END

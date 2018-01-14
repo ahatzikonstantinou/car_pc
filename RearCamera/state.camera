@@ -1,0 +1,6 @@
+{
+  "device": "v4l2:///dev/video0", 
+  "maxImage": true, 
+  "contrast": 50, 
+  "brightness": 50
+}

@@ -1,0 +1,2 @@
+#! /bin/bash
+pactl load-module module-loopback source="alsa_input.usb-SILICON_LABORATORIES_INC._FM_Radio-00-Radio.analog-stereo" sink="alsa_output.pci-0000_00_1b.0.iec958-stereo.monitor"

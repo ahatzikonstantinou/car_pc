@@ -1,0 +1,98 @@
+{
+  "SpeedDialRows": 3, 
+  "pulseaudioRadioSourceName": "FM_Radio", 
+  "zappTimerMSecs": 5000, 
+  "StereoMonoDimColor": "#666666", 
+  "MinAcceptableStationSignalStrength": 40, 
+  "StationListBackgroundColour": "#DDDDDD", 
+  "CancelSpeedDialPressTimeSecs": 4, 
+  "StationListSelectedBackgroundColour": "#5555FF", 
+  "SpeedDialUnassignedFont": {
+    "Style": 90, 
+    "Family": 70, 
+    "Weight": 90, 
+    "Encoding": -1, 
+    "Color": "#888888", 
+    "Facename": "Arial", 
+    "Underline": false, 
+    "Size": 11
+  }, 
+  "ScanStepKHz": 50, 
+  "StationFreqFont": {
+    "Style": 90, 
+    "Family": 70, 
+    "Weight": 92, 
+    "Encoding": -1, 
+    "Color": "#FFFF00", 
+    "Facename": "Arial", 
+    "Underline": false, 
+    "Size": 55
+  }, 
+  "StationListFont": {
+    "Style": 90, 
+    "Family": 70, 
+    "Weight": 90, 
+    "Encoding": -1, 
+    "Color": "#FFFFFF", 
+    "Facename": "Arial", 
+    "Underline": true, 
+    "Size": 15
+  }, 
+  "StationNameFont": {
+    "Style": 90, 
+    "Family": 70, 
+    "Weight": 92, 
+    "Encoding": -1, 
+    "Color": "#AAAA00", 
+    "Facename": "Arial", 
+    "Underline": false, 
+    "Size": 20
+  }, 
+  "StationsPerSpeedDialRow": 10, 
+  "ScanFrequencySeparationThresholdMHz": 0.25, 
+  "StationListSelectedForegroundColour": "#FFFFFF", 
+  "SignalBarBrightColor": "#FFFF55", 
+  "SpeedDialAssignedFont": {
+    "Style": 90, 
+    "Family": 70, 
+    "Weight": 92, 
+    "Encoding": -1, 
+    "Color": "#333333", 
+    "Facename": "Arial", 
+    "Underline": true, 
+    "Size": 12
+  }, 
+  "offVolumeBackgroundColour": "#555555", 
+  "NumericFreqFont": {
+    "Style": 90, 
+    "Family": 70, 
+    "Weight": 92, 
+    "Encoding": -1, 
+    "Color": "#FFFFFF", 
+    "Facename": "Arial", 
+    "Underline": false, 
+    "Size": 25
+  }, 
+  "NumericFreqFontBackgroundColor": "#AAAAAA", 
+  "SignalBarDimColor": "#555500", 
+  "RDSFont": {
+    "Style": 90, 
+    "Family": 70, 
+    "Weight": 90, 
+    "Encoding": -1, 
+    "Color": "#AAAA00", 
+    "Facename": "Verdana", 
+    "Underline": false, 
+    "Size": 20
+  }, 
+  "radioDevice": "/dev/radio0", 
+  "SetSpeedDialPressTimeSecs": 1, 
+  "StereoMonoBrightColor": "#FFFFFF", 
+  "StationListPressColor": [
+    120, 
+    120, 
+    120
+  ], 
+  "onVolumeBackgroundColour": "#FFFF55", 
+  "ScanWaitTimeMSecs": 100
+}

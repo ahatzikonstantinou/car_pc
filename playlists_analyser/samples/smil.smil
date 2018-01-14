@@ -1,0 +1,11 @@
+    <?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="ItemCount" content="11"/>
+	<title>Miasto Muzyki</title>
+    </head>
+    <body>
+        <seq>
+		<media src="http://www.miastomuzyki.pl/wpl/mmsrc.asx?id=39&amp;n=0&amp;m=0&amp;ads=0&amp;cid=0&amp;stm=0&amp;mid=0&amp;enc=0" />        </seq>
+    </body>
+</smil>

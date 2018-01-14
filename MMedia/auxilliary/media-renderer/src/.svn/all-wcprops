@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/__init__.py
+END
+dmr_dbus.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/dmr_dbus.py
+END
+_basic_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/_basic_config.py
+END
+br.edu.ufcg.embedded.brisa.MediaRenderer.service
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/br.edu.ufcg.embedded.brisa.MediaRenderer.service
+END
+media_renderer_impl.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/brisa/!svn/ver/1741/python/trunk/app/media-renderer/src/media_renderer_impl.py
+END

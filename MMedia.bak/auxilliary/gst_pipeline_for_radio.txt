@@ -1,0 +1,5 @@
+gst-launch-0.10 pulsesrc device=alsa_input.usb-SILICON_LABORATORIES_INC._FM_Radio-00-Radio.iec958-stereo ! tee name =t ! queue ! libvisual_lv_scope ! ffmpegcolorspace ! xvimagesink force-aspect-ratio=false t. ! queue ! pulsesink
+
+gst-launch-0.10 pulsesrc device=alsa_input.usb-SILICON_LABORATORIES_INC._FM_Radio-00-Radio.analog-stereo ! tee name =t ! queue ! libvisual_lv_scope ! ffmpegcolorspace ! videobalance saturation=2.0 brightness=0.5 hue=-1.0 contrast=2.0 ! xvimagesink force-aspect-ratio=false t. ! queue ! volume volume=10.0 mute=False ! equalizer-3bands band0=12.0 band1=-24.0 band2=-24.0 ! pulsesink
+
+gst-launch-0.10 videotestsrc ! videobalance saturation=2.0 brightness=0.5 hue=-1.0 contrast=2.0 ! xvimagesink

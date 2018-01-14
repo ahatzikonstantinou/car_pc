@@ -1,0 +1,68 @@
+Subtitles:
+	v	Subtitles are always unavailable while player is stopped. Becomes available only when player is playing (on state changed to playing) and only if the track is a video
+	v	Do DVD subtitles
+	v	Do UPnP subtitles
+
+Deactivate/Reactivate:
+	v Resume from system pause/mute
+	
+Refactoring:
+	Separate gui and engine
+	Engine goes in a separate thread to stop crashing fof wx
+	Gui and engine communicate via wx.Post
+
+UPnP:
+	v	Actually this was cancelled because a connection does not give any advantage over the existing implementation. Create an actual connection to the media servers or find some other way to avoid random disconnections
+
+Fullscreen mode:
+	Fix fullscreen toggle
+	
+Tablet interface:
+	Stream desktop with vlc
+	Develop mouse-events-server to receive mouse clicks on car-pc
+	Develop application to receive stream in tablet and send mouse events to car-pc mouse-events-server
+	
+Settings:
+	Add drop down filled with the names of pulseaudio sources to select source for radio
+	Add text box for radio device e.g. /dev/radio0
+	Add button for bluetooth-wizard
+	Add visual effect of audio settings
+
+v	Remove audio settings and replace with pre- amplifier per device
+v	Put try except per media item in media item iteration so that crashes don't leave empty filelist. There was no iteration. Fixed it with string.decode( ‘utf-8’ ).encode( ‘utf-8’ )
+v	Fixed playtrack crashes due to logging or print of non-unicode trackhashes (used encode( ‘utf-8’ )
+v	Fix mute when activating a device
+v	ShowMessage in gui when opening file / dir. Almost. When done, update it to ShowMessage the dir name without the ‘opening ...’ parts
+v	Put Play and PlayTrack and perhaps MoveUpFolder in threads and maybe also display modal progress dialog in its own thread "please wait" for opening new song or opening folder. Play is ok without a thread for the time being.
+v	Fix If I open settings control panel and then switch to another device, both speeddial panel and settings panel are visible.
+v	Fix click and drag in device button list. Cannot be done with these controls. Instead, implemented smooth scrolling when pressing the scroll buttons
+v	Fix random crashes when I double-click a track and the progress dialog comes up and I click around at random (but of course inside the MMedia application window)
+v	Fix at startup the device being the first active one, does not _ShowMessage its current track text (dir or file). TV has no station selected and therefore _ShowMessage displays ‘None’. I assume the same happens with Radio. UPnPMediaServer _ShowMessage displays nothing.
+v	Move speed dial context menu to mouse left click
+v	Fix at device playtrack, show the "now playing" list if it is supported
+v	Fix save in the state of every device if the filelist or playlist or "now playing" is visible and restore after deactivate - activate
+v	Fix what to do if opening a track takes a very long time e.g. try playing ANT1 in TV. Nothing can be done with hreads. In python there is no way to kill a thread.
+v	Make DMR device button visible in ScrollWindow when auto activating DMR
+V	Fix navigation buttons in devices window. Almost. Theres is a small gap at the end of the buttons list. Why? That was due to the scroll_rate which was 20 (default). Fixed it by setting to 1
+v	Fix Radio, and TV
+v	Finish refactoring MediaPlayerDevice into wherever e.g. Filesystem, AudioCDDevice, etc.
+v	Fix Bluetooth device detection. Need nothing to do.
+v	Make graphic equalizer graphics wider. Used --effect-width=1150 in MediaPlayer.CreateInstance Use another value if the application size changes
+v	Connect Visual effects
+v	Add a reset button to set brightness, contrast and gamma to their default values.
+v	Remove hue and saturation from image settings because they do not have any effect.
+v	Put brightness, contrast and gamma in one panel (get rid of the netbook).
+v	Instead of hiding the "image" page of settings remove it for devices that do not HaveVideoSettings
+
++	Fix playtrack a dir in MediaServer. E.g. in ushare double clicking on movies does nothing (perhaps movies is empty?) Not sure how to reproduce. Added a refresh button to re-read the current dir
++	Fix detection and redetection of UPnPMediaServers. If they are disconnected and the device is removed from gui, they are never rediscovered again although they show up in upnp-inspector. They are only detected if they were on before the gui.py started. Miranda reads only the first upnp packet that a upnp device sends. Almost fixed it.
+
+-Icons
+-Fix the radio so it does not start playing every time the application starts, but only when it is the active device
+-Fix MediaServer is removed because of timeout although mediaserver is still alive (as displayed in upnp-inspector).
+-It looks like coherence throws exceptions from time to time that are not handled. This causes the application to freeze. Perhaps I should put a general handler somewhere and when an unhandled exception occurs, restart the application.
+-I sometimes get errors: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0 This means that somewhere I have code that manipulates wx widgets from another thread than the main thread. This happens when I double click a file to play it. This seems to be related with Onxxx callback methods in media_player.
+-Refactor a2dpmediaplayer so that it has its own play method like radiomediaplayer. No need to create test instances with MediaIsAudio. Same for audiocd.
+-Fix behaviorOnActivate. Device.SetMute causes SetUserMute which is not correct when initialising.
+-Debug hiding of settings panel when double clicking on video for "full screen".
+-Add proper icons to filelist and playlist to indicate folders, audio and video items (perhaps images too)

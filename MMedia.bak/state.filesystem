@@ -1,0 +1,11 @@
+{
+  "shuffle": true, 
+  "repeat": true, 
+  "current_dir": "/home/antonis/My Music", 
+  "speed_dials": {
+    "1": "/home/antonis/My Music", 
+    "3": "/home/antonis/My Music/VANGELIS_HEAVEN_AND_HELL__12_o_clock.flv", 
+    "2": "/home/antonis/My Music/playlist_test2.m3u"
+  }, 
+  "filename": "state.filesystem"
+}

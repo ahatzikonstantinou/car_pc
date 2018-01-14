@@ -1,0 +1,13 @@
+pdb Note:
+l: list source
+w: where - prints the stack trace
+a: arguments of the running function
+xxx: whre xxx is the variable name and prints the value
+cmd(xxx): run command cmd with variable xxx
+b n: set breakpoint at line n
+n: move to next line without running it
+s: step into
+c: continue untli breakpoint or end of program
+Pp: pretty print
+q: quit
+h: help

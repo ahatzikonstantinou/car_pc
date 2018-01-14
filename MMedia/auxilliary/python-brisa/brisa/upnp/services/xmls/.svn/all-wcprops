@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/services/xmls
+END
+content-directory-scpd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/services/xmls/content-directory-scpd.xml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/services/xmls/__init__.py
+END
+render-connmgr-scpd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/services/xmls/render-connmgr-scpd.xml
+END
+connection-manager-scpd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/services/xmls/connection-manager-scpd.xml
+END

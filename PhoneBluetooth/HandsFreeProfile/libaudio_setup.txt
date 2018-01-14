@@ -1,0 +1,16 @@
+Since ubuntu 12.04 the libaudiofile.so.0 symlink in /usr/lib/i386-linux-gnu is gone and hfpd will not work without it.
+Just do
+cd /usr/lib/i386-linux-gnu
+
+check to see where the other symlinks point to
+/usr/lib/i386-linux-gnu$ ls -l libaudio*
+lrwxrwxrwx 1 root root     21 Jan 26  2012 libaudiofile.so -> libaudiofile.so.1.0.0
+lrwxrwxrwx 1 root root     21 Jan 26  2012 libaudiofile.so.1 -> libaudiofile.so.1.0.0
+-rw-r--r-- 1 root root 206940 Jan 26  2012 libaudiofile.so.1.0.0
+lrwxrwxrwx 1 root root     15 Mar  5  2012 libaudio.so.2 -> libaudio.so.2.4
+-rw-r--r-- 1 root root  95760 Mar  5  2012 libaudio.so.2.4
+
+and then create the symlink pointing to the same target as the others
+sudo ln -s libaudiofile.so.1.0.0 libaudiofile.so.0
+
+and hfpd will be fine

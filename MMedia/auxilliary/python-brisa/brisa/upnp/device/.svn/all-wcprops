@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/device
+END
+xml_gen.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/device/xml_gen.py
+END
+action.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/device/action.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/device/__init__.py
+END
+device.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/device/device.py
+END
+service.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/device/service.py
+END
+event.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/device/event.py
+END

@@ -1,0 +1,52 @@
+Optimum hfconsole settings:
+
+        Audio Device:
+                Driver: ALSA
+                Device/Options: dev=pulse&access=proc (for more info see http://nohands.sourceforge.net/doxy/group__soundio.html#ge424ac5a2ae5b723650190d5ce5f6abe)
+                Packet Interval: 10ms
+                Jitter Window: (Unchecked)
+                Output Bufffer: 100ms
+        
+        Signal Processing:
+                Noise Reduction: (Checked)
+                Auto Gain: 0
+                Dereverb: (Unchecked)
+                Echo Cancelation: 380ms
+                
+gstreamer-properties:
+  Audio:
+    Default Output:
+      Plugin: PulseAudio Sound Server
+      Device: Default
+      Pipeline: pulsesink (greyed out)
+    Default Input:
+      Plugin: PulseAudio Sound Server
+      Device: Default
+      Pipeline: pulsesrc (greyed out)
+
+Pulseaudio settings:
+  Recording:
+    ALSA plug-in [hfpd]: ALSA Capture from  [Internal Audio Analog Stereo]
+  Output Devices:
+    Internal Audio Digital Stereo (IEC958)
+  Input Devices:
+    Internal Audio Analog Stereo:
+      Port: Microphone 1
+      Volume: 65% (whatever is necesary to avoid feedback from the microphone)
+  Configuration:
+    Internal Audio:
+      Profile: Digital Stereo (IEC958) Output + Analog Stereo Input
+
+To prevent bluez from capturing the bleutooth audo socket update
+/etc/bluetooth/audio.conf:
+  Disable=Gateway
+  Disable=Control,Source
+  
+$HOME/.asoundrc or $HOME/.asoundrc.asoundconf:
+  pcm.!default { type pulse }
+  ctl.!default { type pulse }
+  pcm.pulse { type pulse }
+  ctl.pulse { type pulse }
+  
+    
+

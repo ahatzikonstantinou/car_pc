@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp
+END
+base_device.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/base_device.py
+END
+ssdp.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/ssdp.py
+END
+upnp_defaults.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/upnp_defaults.py
+END
+base_service.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/base_service.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/__init__.py
+END
+base_service_builder.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/base_service_builder.py
+END
+soap.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/soap.py
+END
+base_action.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/base_action.py
+END

@@ -1,0 +1,61 @@
+#!/usr/bin/make -f
+
+PYVER=2.6
+PYTHON=python$(PYVER)
+
+p_base=$(PYTHON)-brisa
+d_base=debian/tmp
+package=brisa_media_renderer
+
+build: build-stamp
+
+build-stamp:
+	dh_testdir
+	$(PYTHON) setup.py build
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	$(PYTHON) setup.py clean
+	-rm -f build-stamp
+	-rm -rf build
+	-rm -f *.py[co]
+	dh_clean
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+
+	$(PYTHON) setup.py install --root=$(d_base)
+
+	# Bin
+	mkdir -p debian/$(p_base)-media-renderer/usr/local/bin
+	sed s/"#\!\/usr\/bin\/env python"/"#\!\/usr\/bin\/env python2.6"/ debian/tmp/usr/local/bin/brisa-media-renderer > debian/tmp/usr/local/bin/brisa-media-renderer2.6
+	chmod +x debian/tmp/usr/local/bin/brisa-media-renderer2.6
+	mv debian/tmp/usr/local/bin/brisa-media-renderer2.6 debian/$(p_base)-media-renderer/usr/local/bin/brisa-media-renderer
+
+	# Share
+	mkdir -p debian/$(p_base)-media-renderer/usr/local/share
+	mv debian/tmp/usr/local/share/* debian/$(p_base)-media-renderer/usr/local/share
+
+	# Libs
+	mkdir -p debian/$(p_base)-media-renderer/usr/local/lib/$(PYTHON)/dist-packages/$(package)
+	mv debian/tmp/usr/local/lib/$(PYTHON)/dist-packages/$(package)/* debian/$(p_base)-media-renderer/usr/local/lib/$(PYTHON)/dist-packages/$(package)
+
+binary-indep: build install
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_fixperms
+	dh_python
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+
+.PHONY: build install clean binary binary-indep binary-arch

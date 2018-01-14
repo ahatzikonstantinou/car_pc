@@ -1,0 +1,8 @@
+To have audio output from radio the pulseaudio server must have a connection 
+between the radio source and the souncard sink.
+The command to execute is "pctl load-module module-loopback source="name" sink="name"
+In order to find the source and sink names run pacmd and note the sink and source names.
+Use them in the above command replacing the '<', '>' delimiters with the double-quotes as
+depicted above.
+
+The sink for the ubuntu desktop is alsa_output.pci-0000_00_1b.0.iec958-stereo

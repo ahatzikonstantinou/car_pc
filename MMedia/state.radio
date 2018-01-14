@@ -1,0 +1,14 @@
+{
+  "hue": 0, 
+  "saturation": 1.0, 
+  "repeat": false, 
+  "shuffle": false, 
+  "speed_dials": {}, 
+  "brightness": 1.09, 
+  "preamp": 40, 
+  "selector": 0, 
+  "frequency": 88.6, 
+  "gamma": 1.0, 
+  "active_list_id": 1, 
+  "contrast": 1.0
+}

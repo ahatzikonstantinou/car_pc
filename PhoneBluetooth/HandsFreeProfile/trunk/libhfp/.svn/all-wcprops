@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/nohands/!svn/ver/85/trunk/libhfp
+END
+soundio-alsa.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/nohands/!svn/ver/71/trunk/libhfp/soundio-alsa.cpp
+END
+soundio-pump.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/nohands/!svn/ver/61/trunk/libhfp/soundio-pump.cpp
+END
+events-indep.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/nohands/!svn/ver/70/trunk/libhfp/events-indep.cpp
+END
+soundio-oss.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/nohands/!svn/ver/48/trunk/libhfp/soundio-oss.cpp
+END
+oplatency.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/nohands/!svn/ver/37/trunk/libhfp/oplatency.h
+END
+rfcomm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/nohands/!svn/ver/84/trunk/libhfp/rfcomm.cpp
+END
+events.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/nohands/!svn/ver/48/trunk/libhfp/events.cpp
+END
+bt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/nohands/!svn/ver/85/trunk/libhfp/bt.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/nohands/!svn/ver/37/trunk/libhfp/Makefile.am
+END
+soundio-manager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/nohands/!svn/ver/55/trunk/libhfp/soundio-manager.cpp
+END
+soundio-util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/nohands/!svn/ver/61/trunk/libhfp/soundio-util.cpp
+END
+hfp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/nohands/!svn/ver/80/trunk/libhfp/hfp.cpp
+END

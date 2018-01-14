@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point
+END
+control_point.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/control_point.py
+END
+action.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/action.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/__init__.py
+END
+control_point_av.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/control_point_av.py
+END
+device.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/device.py
+END
+service.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/service.py
+END
+event.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/event.py
+END
+msearch.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/msearch.py
+END
+device_builder.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/brisa/!svn/ver/1741/python/trunk/python-brisa/brisa/upnp/control_point/device_builder.py
+END

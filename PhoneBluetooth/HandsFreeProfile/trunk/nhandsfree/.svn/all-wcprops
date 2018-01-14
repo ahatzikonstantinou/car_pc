@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/nohands/!svn/ver/34/trunk/nhandsfree
+END
+nhandsfree.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/nohands/!svn/ver/1/trunk/nhandsfree/nhandsfree.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/nohands/!svn/ver/34/trunk/nhandsfree/Makefile.am
+END
+nhandsfree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/nohands/!svn/ver/2/trunk/nhandsfree/nhandsfree.cpp
+END

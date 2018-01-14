@@ -1,0 +1,2 @@
+#! /bin/bash
+pactl list sources | grep "Name:.*$1" -A10 | grep "Volume" | head -n1

@@ -1,0 +1,13 @@
+Source: brisa-media-renderer
+Section: multimedia
+Priority: optional
+Maintainer: André Dieb Martins <andre.dieb@gmail.com>
+Build-Depends: debhelper (>= 5.0.38), python2.5-dev, python-setuptools | python2.5-setuptools
+Standards-Version: 3.6.1
+
+Package: python2.5-brisa-media-renderer
+Architecture: all
+Depends: python2.5-brisa, python-gst0.10 | python-gstreamer | python2.5-gstreamer, python2.5-gobject
+Provides: ${python:Provides}
+Description: BRisa UPnP Media Renderer Device 1.0
+   An UPnP A/V media renderer device implemented using BRisa UPnP Framework.
