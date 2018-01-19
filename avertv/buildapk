@@ -1,0 +1,82 @@
+if java -version ; then
+	echo "Java found"
+else
+	echo "Error: Java not found. Please install JRE or add to the PATH"
+	exit 1
+fi
+
+FOLDER="$(pwd)/$1"
+APKOUT=$FOLDER/dist/$1.apk
+SIGNED=$FOLDER-signed.apk
+ALIGNED=$FOLDER-signed-aligned.apk
+FINAL="$(pwd)/$1.apk"
+
+function clearall {
+	[ -e "$ALIGNED" ] && rm "$ALIGNED"
+	$( clearleft )
+}
+
+function clearleft {
+	[ -e "$APKOUT" ] && rm "$APKOUT"
+	[ -e "$SIGNED" ] && rm "$SIGNED"
+	[ -e "$ALIGNED" ] && rm "$ALIGNED"
+	local file="home/$USER/apktool/framework/1.apk"
+	[ -e "$file" ] && rm "$file"
+}
+
+function err {
+	echo "An error has occured. Exiting..."
+	$( clearall )
+	exit 1
+}
+
+clearall
+
+echo "Build APK from Disassembly for $FOLDER"
+#cd apktool
+java -Xmx1024m -jar apktool.jar b "$FOLDER" "$APKOUT"
+if [[ "$?" -ne 0 ]] ; then
+	err
+fi
+
+#echo "Optimize png images"
+#cd "others"
+#EXTR=$FOLDER.extracted
+#TEMP=$FOLDER.res
+#echo "Creating dirs $EXTR and $TEMP"
+#mkdir -p "$EXTR"
+#mkdir -p "$TEMP"
+#7za e -o "$EXTR" "$APKOUT" -y
+#cp -r "$EXTR/res/*.9.png" "$TEMP"
+#optipng "$EXTR/*/*.png"
+#cp -r "$TEMP/" "$EXTR/res/"
+#rm "$APKOUT"
+#7za a -tzip "$APKOUT" "$EXTR/*" -mx9
+#rm -rf "$EXTR"
+#rm -rf "$TEMP"
+
+echo "Sign APK"
+echo "Signing $APKOUT"
+cd "others"
+java -Xmx1024m -jar signapk.jar -w testkey.x509.pem testkey.pk8 "$APKOUT" "$SIGNED"
+if [[ "$?" -ne 0 ]] ; then
+	err
+fi
+
+#echo "Renaming $SIGNED to $FINAL"
+#mv "$SIGNED" "$FINAL"
+
+echo "Zipalign APK"
+echo Zipaligning "$APKOUT"
+zipalign -f 4 "$SIGNED" "$ALIGNED"
+if [[ "$?" -ne 0 ]] ; then
+	err
+fi
+
+echo "Renaming $ALIGNED to $FINAL"
+mv "$ALIGNED" "$FINAL"
+
+echo "Clearing intermediate files"
+clearleft 
+
+exit 0
