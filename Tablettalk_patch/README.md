@@ -73,9 +73,9 @@ The important code is in directory “assets”. However, file “ServicePhone.s
     - In the adb shell run the following command `echo “service call phone #n#” > /data/answer_call`
         - Replace #n# with the appropriate code number that will answer incoming calls. For Nougat this seems to be 7. In previous Android versions this was 5 or 6. I found out by calling my phone from another phone and running at my pc `adb shell service call phone x` trying all integers for x from 1 up to 7. 7 did the trick.
         - This creates a script file in /data (if you try /sdcard instead you will find out that sdcard is mounted without the execute permission and therefore answer_call cannot become executable -chmod +x will do nothing-).
-    - In the adb shell run `chmod +x /data/answer_call` to make answer_call executable. Test by calling from another and try to answer the call by running in the adb shell `sh /data/answer_call`.
+    - In the adb shell run `chmod +x /data/answer_call` to make answer_call executable. Test by calling from another phone and try to answer the call by running in the adb shell `sh /data/answer_call`.
 
-- Run script patch to generate a patched apk for Tablet Talk
+- Run script `patch` to generate a patched apk for Tablet Talk
 
 - Copy the patched apk to you phone.
 
@@ -89,7 +89,7 @@ The important code is in directory “assets”. However, file “ServicePhone.s
 
 - Call your phone from another phone and answer from your tablet.
     - You will **NOT** be able to answer the call because you have not granted superuser permissions to your phone’s Tablet Talk app yet. A toast will notify you about this saying “permission denied etc.”
-    - In you phone, find the superuser app, and run it. In the list of applications you should see Tablet Talk. Click it and grant it superuser permissions. Now Tablet Talk can run the answer call script as superuser.
+    - In you phone, find the "superuser" app, and run it. In the list of applications you should see Tablet Talk. Click it and grant it superuser permissions. Now Tablet Talk can run the answer-call script as superuser.
 
 - Call again your phone from another phone and answer from your tablet. Now you **CAN** answer the call.
 
@@ -97,6 +97,6 @@ Notes:
 ------
 I adapted the patch and buildapk scripts for linux. I chose not to optimize the images because it seemed too much of a pain for little gain.
 
-In case of crashes or other error one way to see what is going on is to run `adb logcat AndroidRuntime:E *:S` at your pc while your phone is connected over usb and run Tablet Talk.
+In case of crashes or other errors, one way to see what is going on is to run `adb logcat AndroidRuntime:E *:S` at your pc while your phone is connected over usb and run Tablet Talk.
 
 Dalvik opcodes to find out what each smali command does http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html

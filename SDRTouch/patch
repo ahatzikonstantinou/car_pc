@@ -1,0 +1,18 @@
+#!/bin/bash
+
+apkfile="$1"
+
+echo "apkfile: $apkfile.apk"
+
+#java -jar -Duser.language=en apktool.jar -f d "$apkfile.apk"
+
+cp ./assets/SDRTouchMain.smali "$apkfile/smali/marto/androsdr2"
+
+#for debugging
+#cp "$apkfile/AndroidManifest.xml" ./AndroidManifest.xml
+
+java -jar -Duser.language=en apktool.jar b "$apkfile"
+
+./buildapk "$apkfile"
+
+echo "Patched Succesfully"

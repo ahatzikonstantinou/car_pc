@@ -79,6 +79,7 @@
 	<Profile sr="prof24" ve="2">
 		<cdate>1516971822412</cdate>
 		<edate>1517590026574</edate>
+		<flags>2</flags>
 		<id>24</id>
 		<mid0>25</mid0>
 		<Event sr="con0" ve="2">
@@ -163,8 +164,7 @@
 	</Profile>
 	<Profile sr="prof52" ve="2">
 		<cdate>1517310370847</cdate>
-		<edate>1517580259012</edate>
-		<flags>2</flags>
+		<edate>1517825513509</edate>
 		<id>52</id>
 		<mid0>64</mid0>
 		<mid1>30</mid1>
@@ -179,8 +179,8 @@
 		<edate>1517580270474</edate>
 		<flags>2</flags>
 		<id>53</id>
-		<mid0>33</mid0>
-		<mid1>34</mid1>
+		<mid0>74</mid0>
+		<mid1>75</mid1>
 		<State sr="con0" ve="2">
 			<code>3</code>
 			<Str sr="arg0" ve="3">%BtGps</Str>
@@ -217,17 +217,17 @@
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1511465060059</cdate>
-		<mdate>1517592874918</mdate>
+		<mdate>1517850569457</mdate>
 		<name>Base</name>
 		<pids>2,5,15,18,21,24,48,50,52,53,28,47,60,54</pids>
-		<tids>3,4,7,6,9,27,8,10,11,56,12,20,68,13,16,17,14,19,22,23,25,26,29,30,32,33,34,35,36,37,38,39,40,41,42,43,51,55,57,31,45,46,58,44,59,61,62,65,66,64,49,63,67,69,70</tids>
+		<tids>3,4,7,6,9,27,8,10,11,56,12,20,68,13,16,17,14,19,22,23,25,26,29,30,32,33,34,35,36,37,38,39,40,41,42,43,51,55,57,31,45,46,58,44,59,61,62,65,66,64,49,63,67,69,70,71,74,75,72,73</tids>
 		<Img sr="icon" ve="2">
 			<nme>hl_aaa_ext_home</nme>
 		</Img>
 	</Project>
 	<Task sr="task10">
 		<cdate>1516290431656</cdate>
-		<edate>1517510695679</edate>
+		<edate>1517932564497</edate>
 		<id>10</id>
 		<nme>Volume Up</nme>
 		<pri>100</pri>
@@ -256,18 +256,13 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>793</code>
-			<Str sr="arg0" ve="3">Mute / Switcher1</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_device_access_volume_on</nme>
 		</Img>
 	</Task>
 	<Task sr="task11">
 		<cdate>1516290514270</cdate>
-		<edate>1517594493565</edate>
+		<edate>1517932571364</edate>
 		<id>11</id>
 		<nme>Volume Down</nme>
 		<pri>100</pri>
@@ -290,25 +285,13 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>793</code>
-			<Str sr="arg0" ve="3">Mute / Switcher1</Str>
-			<Int sr="arg1" val="2"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%VOLS</lhs>
-					<op>0</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_device_access_volume_on</nme>
 		</Img>
 	</Task>
 	<Task sr="task12">
 		<cdate>1516290811159</cdate>
-		<edate>1517513605630</edate>
+		<edate>1517932580301</edate>
 		<id>12</id>
 		<nme>Mute</nme>
 		<pri>100</pri>
@@ -351,11 +334,6 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>793</code>
-			<Str sr="arg0" ve="3">Mute / Switcher1</Str>
-			<Int sr="arg1" val="2"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_device_access_volume_muted</nme>
@@ -556,7 +534,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task20">
 		<cdate>1516638033815</cdate>
-		<edate>1517513611730</edate>
+		<edate>1517932588305</edate>
 		<id>20</id>
 		<nme>Unmute</nme>
 		<pri>100</pri>
@@ -590,11 +568,6 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>793</code>
-			<Str sr="arg0" ve="3">Mute / Switcher1</Str>
-			<Int sr="arg1" val="1"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_ab_navigation_accept</nme>
@@ -936,7 +909,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task27">
 		<cdate>1517560712532</cdate>
-		<edate>1517564361265</edate>
+		<edate>1517825494178</edate>
 		<id>27</id>
 		<nme>Power On</nme>
 		<Action sr="act0" ve="7">
@@ -1054,7 +1027,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task31">
 		<cdate>1517418343857</cdate>
-		<edate>1517493537288</edate>
+		<edate>1517865881828</edate>
 		<id>31</id>
 		<nme>Cpu Meter</nme>
 		<pri>100</pri>
@@ -1871,7 +1844,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task46">
 		<cdate>1517423111962</cdate>
-		<edate>1517427615059</edate>
+		<edate>1517662323134</edate>
 		<id>46</id>
 		<nme>Bat Temp Meter</nme>
 		<pri>100</pri>
@@ -1978,7 +1951,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task51">
 		<cdate>1517266852119</cdate>
-		<edate>1517581072444</edate>
+		<edate>1517825617038</edate>
 		<id>51</id>
 		<nme>Detect Phone Connection</nme>
 		<pri>100</pri>
@@ -2038,7 +2011,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task55">
 		<cdate>1517313296784</cdate>
-		<edate>1517580406169</edate>
+		<edate>1517825609635</edate>
 		<id>55</id>
 		<nme>Start BTGps</nme>
 		<pri>100</pri>
@@ -2065,13 +2038,13 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task56">
 		<cdate>1517331125447</cdate>
-		<edate>1517331421572</edate>
+		<edate>1517932612845</edate>
 		<id>56</id>
 		<nme>Set Volume Indicator</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>793</code>
-			<Str sr="arg0" ve="3">Volume / Switcher1</Str>
+			<Str sr="arg0" ve="3">Clock.w / volume</Str>
 			<Int sr="arg1">
 				<var>%VOLS+1</var>
 			</Int>
@@ -2180,7 +2153,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task6">
 		<cdate>1514046015982</cdate>
-		<edate>1517313637649</edate>
+		<edate>1517825644582</edate>
 		<id>6</id>
 		<nme>Connect Tablet Talk</nme>
 		<pri>100</pri>
@@ -2549,7 +2522,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task64">
 		<cdate>1517564404468</cdate>
-		<edate>1517580259012</edate>
+		<edate>1517825513509</edate>
 		<id>64</id>
 		<nme>Audio Connected</nme>
 		<Action sr="act0" ve="7">
@@ -2575,10 +2548,21 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Start BTGps</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
 	</Task>
 	<Task sr="task65">
 		<cdate>1517487700749</cdate>
-		<edate>1517576723410</edate>
+		<edate>1517825597750</edate>
 		<id>65</id>
 		<nme>Start OBDII</nme>
 		<pri>100</pri>
@@ -2639,17 +2623,6 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg5" ve="3"/>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>20</code>
-			<App sr="arg0">
-				<appClass>com.teslacoilsw.launcher.NovaLauncher</appClass>
-				<appPkg>com.teslacoilsw.launcher</appPkg>
-				<label>Nova Launcher</label>
-			</App>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Refresh OBDII</Str>
 			<Int sr="arg1">
@@ -2660,6 +2633,10 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
+		<Action sr="act7" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
 		<Img sr="icn" ve="2">
 			<cls>org.prowl.torquefree.Torque</cls>
 			<pkg>org.prowl.torquefree</pkg>
@@ -2667,7 +2644,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task66">
 		<cdate>1517488038962</cdate>
-		<edate>1517575457179</edate>
+		<edate>1517825589931</edate>
 		<id>66</id>
 		<nme>Stop OBDII</nme>
 		<pri>100</pri>
@@ -2756,7 +2733,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task67">
 		<cdate>1517586653765</cdate>
-		<edate>1517598321205</edate>
+		<edate>1517850500520</edate>
 		<id>67</id>
 		<nme>Media Toggle Play</nme>
 		<pri>100</pri>
@@ -2889,7 +2866,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task7">
 		<cdate>1513269566696</cdate>
-		<edate>1517580315206</edate>
+		<edate>1517825652054</edate>
 		<id>7</id>
 		<nme>Close Tv Autostart</nme>
 		<pri>100</pri>
@@ -2975,6 +2952,166 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<Img sr="icn" ve="2">
 			<nme>cust_profile_exit_dark</nme>
 		</Img>
+	</Task>
+	<Task sr="task71">
+		<cdate>1517662332470</cdate>
+		<edate>1517825580700</edate>
+		<id>71</id>
+		<nme>Soft Reset</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.greatbytes.fastreboot.FastReboot</appClass>
+				<appPkg>com.greatbytes.fastreboot</appPkg>
+				<label>Fast Reboot</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Start OBDII</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>com.greatbytes.fastreboot.FastReboot</cls>
+			<pkg>com.greatbytes.fastreboot</pkg>
+		</Img>
+	</Task>
+	<Task sr="task72">
+		<cdate>1517850472623</cdate>
+		<edate>1517850535220</edate>
+		<id>72</id>
+		<nme>Media Play</nme>
+		<Action sr="act0" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">input keyevent KEYCODE_MEDIA_PLAY</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_ab_av_play</nme>
+		</Img>
+	</Task>
+	<Task sr="task73">
+		<cdate>1517850544012</cdate>
+		<edate>1517850569454</edate>
+		<id>73</id>
+		<nme>Media Pause</nme>
+		<Action sr="act0" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">input keyevent KEYCODE_MEDIA_PAUSE</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_av_pause</nme>
+		</Img>
+	</Task>
+	<Task sr="task74">
+		<cdate>1517772693885</cdate>
+		<edate>1517825564851</edate>
+		<id>74</id>
+		<nme>BT GPS Connected</nme>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Set Gps</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>740</code>
+			<Str sr="arg0" ve="3">Status.w / btgps-text</Str>
+			<Str sr="arg1" ve="3">%BtGps</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%IsDay</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>793</code>
+			<Str sr="arg0" ve="3">Status.w / btgps</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>793</code>
+			<Str sr="arg0" ve="3">Status.w / btgps</Str>
+			<Int sr="arg1" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task75">
+		<cdate>1517772825825</cdate>
+		<edate>1517825568307</edate>
+		<id>75</id>
+		<nme>BT GPS Disconnected</nme>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Unset Gps</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>740</code>
+			<Str sr="arg0" ve="3">Status.w / btgps-text</Str>
+			<Str sr="arg1" ve="3">---</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%IsDay</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>793</code>
+			<Str sr="arg0" ve="3">Status.w / btgps</Str>
+			<Int sr="arg1" val="2"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>793</code>
+			<Str sr="arg0" ve="3">Status.w / btgps</Str>
+			<Int sr="arg1" val="4"/>
+		</Action>
 	</Task>
 	<Task sr="task8">
 		<cdate>1514998541071</cdate>
