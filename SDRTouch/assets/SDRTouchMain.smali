@@ -1312,7 +1312,7 @@
 
 	#ahat
 	#from http://androidcracking.blogspot.gr/2010/09/examplesmali.html
-	
+
 	# create instance of StringBuilder in v1
 	#new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1351,7 +1351,7 @@
 
 	const/4 v4, 0x0
 	invoke-virtual {p0, v0, v4}, Lmarto/androsdr2/SDRTouchMain;->sendOrderedBroadcast(Landroid/content/Intent;Ljava/lang/String;)V
-		
+
 	#const-string v1, "Also sent ahat.custom.intent.SDR_CATEGORY"
 	#const/4 v0, 0x1
 
