@@ -7,19 +7,47 @@ sudo stty -F /dev/ttyUSB0 9600 -parenb -parodd -cmspar cs8 -hupcl -cstopb cread 
 "-extproc" is valid only for pc linux and will throw an "unknown param" error on android
 
 pc linux seems to require that "screen /dev/ttyUSB0 9600" and then exit is executed first to properly set the serial port.
+
+in android run the following sh script as root to broadcast an intent adn catch it with tasker whenever the reverse lights come on or OFF
+while read c; do echo "read $c"; am broadcast -a com.rev_lights.intent --es state "$c"; done < /dev/ttyUSB0
+
+Also in android run 'echo -n "cam_on" > /dev/ttyUSB0' to switch the reverse camera, and 'echo -n "cam_off" > /dev/ttyUSB0' to switch it off
 */
 #include <Arduino.h>
 
-#define ON "on"
-#define OFF "off"
+#define ON "cam_on"
+#define OFF "cam_off"
 
 #define RELAY 12  //digital pin 12
+#define REV_LIGHTS 2 //in uno, nano, mini other 328-based pins 2 and 3 support hardware interrupts
+
+#define REV_LIGHTS_ON_MSG "REV_LIGHTS_ON"
+#define REV_LIGHTS_OFF_MSG "REV_LIGHTS_OFF"
+
+void revLights( int state )
+{
+  // int state = digitalRead( REV_LIGHTS );
+
+  digitalWrite( RELAY, state );
+
+  if( state == HIGH )
+  {
+    Serial.println( REV_LIGHTS_ON_MSG );
+    return;
+  }
+
+  Serial.println( REV_LIGHTS_OFF_MSG );
+
+}
 
 void setup()
 {
   pinMode( RELAY, OUTPUT );
-
   digitalWrite( RELAY, LOW );
+
+  pinMode( REV_LIGHTS, INPUT_PULLUP );
+
+  // attachInterrupt( digitalPinToInterrupt( REV_LIGHTS ), revLights, CHANGE );
 
   Serial.begin( 9600 );
 
@@ -28,6 +56,13 @@ void setup()
     ; // wait for serial port to connect. Needed for native USB
   }
 }
+
+int counter = 0;       // how many times we have seen new value
+int reading;           // the current value read from the input pin
+int current_state = LOW;    // the debounced input value
+
+long time = 0;         // the last time the output pin was sampled
+int debounce_count = 10; // number of millis/samples to consider before declaring a debounced input
 
 int i  = 0;
 
@@ -66,5 +101,28 @@ void loop()
   // {
   //   Serial.println( "msg is neither ON nor OFF" );
   // }
+
+  // If we have gone on to the next millisecond
+  if( millis() != time )
+  {
+    reading = digitalRead( REV_LIGHTS );
+
+    if( reading == current_state && counter > 0 )
+    {
+      counter--;
+    }
+    if( reading != current_state )
+    {
+       counter++;
+    }
+    // If the Input has shown the same value for long enough let's switch it
+    if( counter >= debounce_count )
+    {
+      counter = 0;
+      current_state = reading;
+      revLights( current_state );
+    }
+    time = millis();
+  }
 
 }

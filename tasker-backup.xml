@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="4.7u3m">
+<TaskerData sr="" dvi="1" tv="5.1m">
 	<Profile sr="prof15" ve="2">
 		<cdate>1516388369731</cdate>
-		<edate>1516451751855</edate>
+		<edate>1521745467573</edate>
 		<flags>2</flags>
 		<id>15</id>
 		<mid0>16</mid0>
@@ -45,7 +45,7 @@
 		<mid0>22</mid0>
 		<mid1>23</mid1>
 		<State sr="con0" ve="2">
-			<code>4024</code>
+			<code>1271452848</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.terdelle.twilight.extra.BOOL_IS_DYNAMIC>false</com.terdelle.twilight.extra.BOOL_IS_DYNAMIC>
@@ -73,7 +73,7 @@
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">com.terdelle.twilight</Str>
-			<Str sr="arg2" ve="3">Twilight</Str>
+			<Str sr="arg2" ve="3">com.terdelle.twilight.ui.EditActivity</Str>
 		</State>
 	</Profile>
 	<Profile sr="prof24" ve="2">
@@ -90,6 +90,12 @@
 				<label>VLC</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7"/>
 		</Event>
 	</Profile>
 	<Profile sr="prof28" ve="2">
@@ -105,7 +111,7 @@
 	</Profile>
 	<Profile sr="prof47" ve="2">
 		<cdate>1517423268371</cdate>
-		<edate>1517423830439</edate>
+		<edate>1521726255107</edate>
 		<flags>2</flags>
 		<id>47</id>
 		<mid0>46</mid0>
@@ -131,6 +137,7 @@
 			<Str sr="arg0" ve="3"/>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</State>
 	</Profile>
 	<Profile sr="prof5" ve="2">
@@ -144,6 +151,7 @@
 			<Str sr="arg0" ve="3">ES_6006</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</State>
 	</Profile>
 	<Profile sr="prof50" ve="2">
@@ -160,6 +168,12 @@
 				<label>Tablet Talk</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7"/>
 		</Event>
 	</Profile>
 	<Profile sr="prof52" ve="2">
@@ -203,7 +217,7 @@
 	</Profile>
 	<Profile sr="prof60" ve="2">
 		<cdate>1517433482031</cdate>
-		<edate>1518031478388</edate>
+		<edate>1521726265948</edate>
 		<flags>2</flags>
 		<id>60</id>
 		<mid0>61</mid0>
@@ -219,6 +233,7 @@
 	<Profile sr="prof76" ve="2">
 		<cdate>1518031385141</cdate>
 		<edate>1518032777350</edate>
+		<flags>2</flags>
 		<id>76</id>
 		<mid0>3</mid0>
 		<Event sr="con0" ve="2">
@@ -230,22 +245,51 @@
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof79" ve="2">
+		<cdate>1521726321774</cdate>
+		<edate>1521732365554</edate>
+		<flags>2</flags>
+		<id>79</id>
+		<mid0>80</mid0>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<Str sr="arg0" ve="3">com.rev_lights.intent</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof83" ve="2">
+		<cdate>1521744756354</cdate>
+		<edate>1521746634314</edate>
+		<id>83</id>
+		<mid0>84</mid0>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<Str sr="arg0" ve="3">android.hardware.usb.action.USB_DEVICE_ATTACHED</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1511465060059</cdate>
-		<mdate>1518033456832</mdate>
+		<mdate>1521745027483</mdate>
 		<name>Base</name>
-		<pids>2,5,15,18,21,24,48,50,52,53,28,47,60,54,76</pids>
-		<tids>3,4,7,6,9,27,8,10,11,56,12,20,68,13,16,17,14,19,22,23,25,26,29,30,32,33,34,35,36,37,38,39,40,41,42,43,51,55,57,31,45,46,58,44,59,61,62,65,66,64,49,63,67,69,70,71,74,75,72,73,77</tids>
+		<pids>2,5,15,18,21,24,48,50,52,53,28,47,60,54,76,79,83</pids>
+		<tids>3,4,7,6,9,27,8,10,11,56,12,20,68,13,16,17,14,19,22,23,25,26,29,30,32,33,34,35,36,37,38,39,40,41,42,43,51,55,57,31,45,46,58,44,59,61,62,65,66,64,49,63,67,69,70,71,74,75,72,73,77,78,80,84</tids>
 		<Img sr="icon" ve="2">
 			<nme>hl_aaa_ext_home</nme>
 		</Img>
 	</Project>
 	<Task sr="task10">
 		<cdate>1516290431656</cdate>
-		<edate>1517932564497</edate>
+		<edate>1520878657521</edate>
 		<id>10</id>
 		<nme>Volume Up</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>308</code>
 			<Int sr="arg0">
@@ -280,7 +324,7 @@
 		<edate>1517932571364</edate>
 		<id>11</id>
 		<nme>Volume Down</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>308</code>
 			<Int sr="arg0">
@@ -309,7 +353,7 @@
 		<edate>1517932580301</edate>
 		<id>12</id>
 		<nme>Mute</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -326,6 +370,7 @@
 			<Str sr="arg1" ve="3">%VOLS</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -356,10 +401,10 @@
 	</Task>
 	<Task sr="task13">
 		<cdate>1516372304713</cdate>
-		<edate>1517314584084</edate>
+		<edate>1521731945230</edate>
 		<id>13</id>
 		<nme>Start Sdr Touch Radio</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>18</code>
 			<se>false</se>
@@ -397,9 +442,10 @@
 	</Task>
 	<Task sr="task14">
 		<cdate>1516452461830</cdate>
-		<edate>1517580322957</edate>
+		<edate>1521729047628</edate>
 		<id>14</id>
 		<nme>Start Vlc</nme>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>18</code>
 			<se>false</se>
@@ -428,7 +474,7 @@
 	</Task>
 	<Task sr="task16">
 		<cdate>1516388390969</cdate>
-		<edate>1516451751855</edate>
+		<edate>1521745448542</edate>
 		<id>16</id>
 		<nme>Kill Tv Autostart By Intent</nme>
 		<pri>100</pri>
@@ -438,7 +484,7 @@
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>15028</code>
+			<code>224077084</code>
 			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -463,7 +509,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">org.kc.tasker.processes</Str>
-			<Str sr="arg2" ve="3">Processes started</Str>
+			<Str sr="arg2" ve="3">org.kc.and.tasker.processes.ui.EditAppRunningPluginActivity</Str>
 			<Int sr="arg3" val="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -495,6 +541,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<edate>1516452494390</edate>
 		<id>17</id>
 		<nme>Start AverTV</nme>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>18</code>
 			<se>false</se>
@@ -552,7 +599,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<edate>1517932588305</edate>
 		<id>20</id>
 		<nme>Unmute</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<on>false</on>
@@ -590,15 +637,16 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task22">
 		<cdate>1516826414698</cdate>
-		<edate>1517330772022</edate>
+		<edate>1520878950320</edate>
 		<id>22</id>
 		<nme>Set Day Wallpaper</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>109</code>
-			<Str sr="arg0" ve="3">Pictures/graphics7.png</Str>
-			<Int sr="arg1" val="0"/>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Pictures/graphics7.png</Str>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>742</code>
@@ -616,6 +664,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -692,9 +741,10 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>109</code>
-			<Str sr="arg0" ve="3">Pictures/graphics7.dark.png</Str>
-			<Int sr="arg1" val="0"/>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Pictures/graphics7.dark.png</Str>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>742</code>
@@ -712,6 +762,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -798,6 +849,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">%NTITLE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>345</code>
@@ -830,7 +882,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task26">
 		<cdate>1517260171653</cdate>
-		<edate>1517563532983</edate>
+		<edate>1520879524577</edate>
 		<id>26</id>
 		<nme>Status Audio</nme>
 		<pri>100</pri>
@@ -941,7 +993,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task29">
 		<cdate>1517260444567</cdate>
-		<edate>1517530687652</edate>
+		<edate>1520879529945</edate>
 		<id>29</id>
 		<nme>Set Audio</nme>
 		<pri>100</pri>
@@ -951,6 +1003,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -991,6 +1044,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1006,7 +1060,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task31">
 		<cdate>1517418343857</cdate>
-		<edate>1517865881828</edate>
+		<edate>1520939408310</edate>
 		<id>31</id>
 		<nme>Cpu Meter</nme>
 		<pri>100</pri>
@@ -1026,8 +1080,9 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">floor(%cpuusage/((%MaxCpu-%MinCpu)/5))+1</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>548</code>
@@ -1037,7 +1092,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>793</code>
-			<Str sr="arg0" ve="3">Counters / cpu</Str>
+			<Str sr="arg0" ve="3">Counters.w / cpu</Str>
 			<Int sr="arg1">
 				<var>%state</var>
 			</Int>
@@ -1046,30 +1101,34 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cputotalnew</Str>
 			<Str sr="arg1" ve="3">%stat2+%stat3+%stat4+%stat5+%stat6 +%stat7 +%stat8 +%stat9</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cputotaldiff</Str>
 			<Str sr="arg1" ve="3">%cputotalnew-%CPUSUM</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cpuidlediff</Str>
 			<Str sr="arg1" ve="3">%stat5-%CPUIDLE</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
 			<label>v1</label>
 			<Str sr="arg0" ve="3">%cpuusage</Str>
 			<Str sr="arg1" ve="3">100-round(%cpuidlediff/%cputotaldiff*100)</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -1077,8 +1136,9 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<on>false</on>
 			<Str sr="arg0" ve="3">%cpuusage</Str>
 			<Str sr="arg1" ve="3">round(100*(%cputotaldiff - %cpuidlediff)/%cputotaldiff)</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>547</code>
@@ -1086,6 +1146,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">%cputotalnew</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>547</code>
@@ -1093,16 +1154,17 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">%stat5</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>740</code>
-			<Str sr="arg0" ve="3">Counters / cpu.n</Str>
+			<Str sr="arg0" ve="3">Counters.w / cpu.n</Str>
 			<Str sr="arg1" ve="3">%cpuusage</Str>
 		</Action>
 	</Task>
 	<Task sr="task32">
 		<cdate>1517260171653</cdate>
-		<edate>1517563560268</edate>
+		<edate>1520879533777</edate>
 		<id>32</id>
 		<nme>Status Gps</nme>
 		<pri>100</pri>
@@ -1206,6 +1268,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1231,6 +1294,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1350,6 +1414,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1375,6 +1440,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1487,6 +1553,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">%WIFII</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>590</code>
@@ -1507,6 +1574,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1547,6 +1615,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1666,6 +1735,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1691,6 +1761,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1706,7 +1777,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task44">
 		<cdate>1517421567579</cdate>
-		<edate>1517428632662</edate>
+		<edate>1520939415037</edate>
 		<id>44</id>
 		<nme>Update Counters</nme>
 		<pri>100</pri>
@@ -1768,7 +1839,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task45">
 		<cdate>1517423031553</cdate>
-		<edate>1517426363212</edate>
+		<edate>1520939381986</edate>
 		<id>45</id>
 		<nme>Free Mem Meter</nme>
 		<pri>100</pri>
@@ -1778,6 +1849,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">%MEMF</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>345</code>
@@ -1797,7 +1869,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>740</code>
-			<Str sr="arg0" ve="3">Counters / men.n</Str>
+			<Str sr="arg0" ve="3">Counters.w / men.n</Str>
 			<Str sr="arg1" ve="3">%mem</Str>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -1810,12 +1882,13 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">floor(%mem/((%MaxMem-%MinMem)/5))+1</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>793</code>
-			<Str sr="arg0" ve="3">Counters / mem</Str>
+			<Str sr="arg0" ve="3">Counters.w / mem</Str>
 			<Int sr="arg1">
 				<var>%state</var>
 			</Int>
@@ -1823,23 +1896,25 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task46">
 		<cdate>1517423111962</cdate>
-		<edate>1517662323134</edate>
+		<edate>1520939374825</edate>
 		<id>46</id>
 		<nme>Bat Temp Meter</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%temp</Str>
 			<Str sr="arg1" ve="3">%temperature</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%temp</Str>
 			<Str sr="arg1" ve="3">%temp / 10</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -1849,7 +1924,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>740</code>
-			<Str sr="arg0" ve="3">Counters / temp.n</Str>
+			<Str sr="arg0" ve="3">Counters.w / temp.n</Str>
 			<Str sr="arg1" ve="3">%temp</Str>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -1859,13 +1934,15 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">-23</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">floor(%temp/((%MaxTemp-%MinTemp)/5))+1</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -1873,6 +1950,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">5</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%state</lhs>
@@ -1887,6 +1965,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%state</lhs>
@@ -1903,7 +1982,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>793</code>
-			<Str sr="arg0" ve="3">Counters / temp</Str>
+			<Str sr="arg0" ve="3">Counters.w / temp</Str>
 			<Int sr="arg1">
 				<var>%state</var>
 			</Int>
@@ -2017,7 +2096,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task56">
 		<cdate>1517331125447</cdate>
-		<edate>1517932612845</edate>
+		<edate>1520878907955</edate>
 		<id>56</id>
 		<nme>Set Volume Indicator</nme>
 		<pri>100</pri>
@@ -2042,7 +2121,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<nme>Set Speed</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>14593</code>
+			<code>640530777</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>speed = 120</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2058,11 +2137,11 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">Minimalistic Text</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>14593</code>
+			<code>640530777</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>rpm = 4200</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2078,26 +2157,26 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">Minimalistic Text</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task58">
 		<cdate>1517428016845</cdate>
-		<edate>1517428577838</edate>
+		<edate>1520939398213</edate>
 		<id>58</id>
 		<nme>Bat Meter</nme>
-		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">floor(%BATT/((%MaxBat-%MinBat)/5))+1</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>793</code>
-			<Str sr="arg0" ve="3">Counters / bat</Str>
+			<Str sr="arg0" ve="3">Counters.w / bat</Str>
 			<Int sr="arg1">
 				<var>%state</var>
 			</Int>
@@ -2105,7 +2184,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task59">
 		<cdate>1517430409298</cdate>
-		<edate>1517433403777</edate>
+		<edate>1521744734217</edate>
 		<id>59</id>
 		<nme>Update Car Counters</nme>
 		<pri>100</pri>
@@ -2137,7 +2216,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<nme>Connect Tablet Talk</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>15463</code>
+			<code>1094760904</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.tabtalk.intent.extra.INT_VERSION_CODE>2</com.tabtalk.intent.extra.INT_VERSION_CODE>
@@ -2151,19 +2230,19 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">com.tabtalk.plugin.locale</Str>
-			<Str sr="arg2" ve="3">Tablet Talk Action</Str>
+			<Str sr="arg2" ve="3">com.tabtalk.plugin.locale.ui.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task61">
 		<cdate>1517433497458</cdate>
-		<edate>1518031478388</edate>
+		<edate>1520881824897</edate>
 		<id>61</id>
 		<nme>Show Warning</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>721</code>
-			<Str sr="arg0" ve="3">Warning / Image1</Str>
+			<Str sr="arg0" ve="3">Warning.w / Image1</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
@@ -2179,13 +2258,15 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%reads</Str>
 			<Str sr="arg1" ve="3">%reads+1</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>548</code>
@@ -2207,7 +2288,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			</ConditionList>
 		</Action>
 		<Action sr="act12" ve="7">
-			<code>14593</code>
+			<code>640530777</code>
 			<se>false</se>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -2224,7 +2305,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">Minimalistic Text</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -2235,7 +2316,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			</ConditionList>
 		</Action>
 		<Action sr="act13" ve="7">
-			<code>14593</code>
+			<code>640530777</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>speed = ---</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2251,7 +2332,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">Minimalistic Text</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -2281,7 +2362,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			</ConditionList>
 		</Action>
 		<Action sr="act15" ve="7">
-			<code>14593</code>
+			<code>640530777</code>
 			<se>false</se>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -2298,11 +2379,11 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">Minimalistic Text</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act16" ve="7">
-			<code>14593</code>
+			<code>640530777</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>rpm = ---</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2318,7 +2399,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">Minimalistic Text</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -2338,8 +2419,9 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<code>547</code>
 			<Str sr="arg0" ve="3">%setstyle</Str>
 			<Str sr="arg1" ve="3">%reads % 2</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>548</code>
@@ -2348,7 +2430,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act19" ve="7">
-			<code>8642</code>
+			<code>1120079153</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>set "Custom 3"</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2364,7 +2446,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">MT Text Style</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleTextStyleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -2385,7 +2467,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>8642</code>
+			<code>1120079153</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>reset "Custom 3"</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2401,7 +2483,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">MT Text Style</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleTextStyleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -2439,6 +2521,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>548</code>
@@ -2662,7 +2745,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>14593</code>
+			<code>640530777</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>speed = ---</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2678,11 +2761,11 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">Minimalistic Text</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>14593</code>
+			<code>640530777</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>rpm = ---</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2698,7 +2781,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">de.devmil.minimaltext</Str>
-			<Str sr="arg2" ve="3">Minimalistic Text</Str>
+			<Str sr="arg2" ve="3">de.devmil.minimaltext.locale.EditLocaleSettingsActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
@@ -2715,7 +2798,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<edate>1518626233859</edate>
 		<id>67</id>
 		<nme>Media Toggle Play</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">input keyevent KEYCODE_MEDIA_PLAY_PAUSE</Str>
@@ -2746,10 +2829,10 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task68">
 		<cdate>1517513443870</cdate>
-		<edate>1517595578327</edate>
+		<edate>1521639091212</edate>
 		<id>68</id>
 		<nme>Toggle Mute</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -2794,7 +2877,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<edate>1517594663813</edate>
 		<id>69</id>
 		<nme>Media Forward</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">input keyevent KEYCODE_MEDIA_FAST_FORWARD</Str>
@@ -2810,7 +2893,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task7">
 		<cdate>1513269566696</cdate>
-		<edate>1517825652054</edate>
+		<edate>1521731657503</edate>
 		<id>7</id>
 		<nme>Close Tv Autostart</nme>
 		<pri>100</pri>
@@ -2829,7 +2912,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>15028</code>
+			<code>224077084</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>com.dexatek.avermedia.player</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -2853,7 +2936,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">org.kc.tasker.processes</Str>
-			<Str sr="arg2" ve="3">Processes started</Str>
+			<Str sr="arg2" ve="3">org.kc.and.tasker.processes.ui.EditAppRunningPluginActivity</Str>
 			<Int sr="arg3" val="3"/>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -2883,7 +2966,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 		<edate>1517594669303</edate>
 		<id>70</id>
 		<nme>Media Rewind</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>123</code>
 			<Str sr="arg0" ve="3">input keyevent KEYCODE_MEDIA_REWIND</Str>
@@ -2951,7 +3034,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task73">
 		<cdate>1517850544012</cdate>
-		<edate>1517850569454</edate>
+		<edate>1521639049230</edate>
 		<id>73</id>
 		<nme>Media Pause</nme>
 		<Action sr="act0" ve="7">
@@ -3059,7 +3142,7 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 	</Task>
 	<Task sr="task77">
 		<cdate>1518032786409</cdate>
-		<edate>1518037950050</edate>
+		<edate>1521639039337</edate>
 		<id>77</id>
 		<nme>Test Intent</nme>
 		<pri>100</pri>
@@ -3076,6 +3159,67 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
+	</Task>
+	<Task sr="task78">
+		<cdate>1520607305053</cdate>
+		<edate>1521639045391</edate>
+		<id>78</id>
+		<nme>Toggle Expanded Desktop</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%ExpandedDesktop</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ExpandedDesktop</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%ExpandedDesktop</Str>
+			<Int sr="arg1">
+				<var>1</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">settings put global policy_control immersive.full=*</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%ExpandedDesktop</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">settings put global policy_control null</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_aspect_ratio</nme>
+		</Img>
 	</Task>
 	<Task sr="task8">
 		<cdate>1514998541071</cdate>
@@ -3131,6 +3275,175 @@ Contains 'true' if the selected app is running.&lt;/_array_net.dinglisch.android
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task80">
+		<cdate>1521726361378</cdate>
+		<edate>1521732365554</edate>
+		<id>80</id>
+		<nme>Rev Lights</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>REV_LIGHTS_ON*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">am force-stop com.shenyaocn.android.usbcamera</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Killed usb cam app</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Starting usb cam app</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.shenyaocn.android.usbcamera.MainActivity</appClass>
+				<appPkg>com.shenyaocn.android.usbcamera</appPkg>
+				<label>USB Camera</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="500"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">input tap 1000 600</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Started usb cam app</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Killing usb cam app</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>18</code>
+			<on>false</on>
+			<App sr="arg0">
+				<appClass>com.shenyaocn.android.usbcamera.MainActivity</appClass>
+				<appPkg>com.shenyaocn.android.usbcamera</appPkg>
+				<label>USB Camera</label>
+			</App>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task84">
+		<cdate>1521744779367</cdate>
+		<edate>1521746634314</edate>
+		<id>84</id>
+		<nme>Read Arduino</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Checking ttyUSB0</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">ls /dev/ttyUSB0</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%ttyusb0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%ttyusb0</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ttyusb0</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">ttyUSB0 not ready</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ttyusb0</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ttyusb0</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">/data/local/read_arduino.sh</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task9">
