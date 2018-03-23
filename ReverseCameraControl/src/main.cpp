@@ -21,6 +21,9 @@ Also in android run 'echo -n "cam_on" > /dev/ttyUSB0' to switch the reverse came
 #define RELAY 12  //digital pin 12
 #define REV_LIGHTS 2 //in uno, nano, mini other 328-based pins 2 and 3 support hardware interrupts
 
+#define HIGH_PIN 7
+#define LOW_PIN 6
+
 #define REV_LIGHTS_ON_MSG "REV_LIGHTS_ON"
 #define REV_LIGHTS_OFF_MSG "REV_LIGHTS_OFF"
 
@@ -47,9 +50,15 @@ void setup()
 
   pinMode( REV_LIGHTS, INPUT_PULLUP );
 
+  pinMode( HIGH_PIN, OUTPUT );
+  digitalWrite( HIGH_PIN, HIGH );
+
+  pinMode( LOW_PIN, OUTPUT );
+  digitalWrite( LOW_PIN, LOW );
+
   // attachInterrupt( digitalPinToInterrupt( REV_LIGHTS ), revLights, CHANGE );
 
-  Serial.begin( 9600 );
+  Serial.begin( 9600 ); //9600, 14400, 19200, 28800, 38400, 57600, or 115200
 
   while (!Serial)
   {
