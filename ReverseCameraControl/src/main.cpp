@@ -154,12 +154,12 @@ void loop()
   {
     String sdm = SAVE_DELAY_MSG;
     // Serial.print( "Dbg: substring is " );
-    Serial.println( msg.substring( sdm.length() ) );
+    // Serial.println( msg.substring( sdm.length() ) );
 
     int delay = msg.substring( sdm.length() + 1 ).toInt();
     saveTurnOffDelay( delay );
     // Serial.print( "Dbg: Saved delay " );
-    Serial.println( delay );
+    // Serial.println( delay );
   }
 
   // else
